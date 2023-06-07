@@ -32,7 +32,7 @@ public class HiloPorLetra
         for (int i = 0; i < 10; i++)
         {
             ImprimirLetra();
-            Sleep(100);
+            Thread.Sleep(100);
         }
     }
     

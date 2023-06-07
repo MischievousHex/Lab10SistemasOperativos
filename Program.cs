@@ -16,21 +16,21 @@ public static class Program
         HiloPorLetra punto = new HiloPorLetra("punto", ".");
         
         punto.Run();
-        punto.Sleep(10);
+        Thread.Sleep(10);
         espacio.Run();
-        espacio.Sleep(10);
+        Thread.Sleep(10);
         Ese.Run();
-        Ese.Sleep(10);
+        Thread.Sleep(10);
         AA.Run();
-        AA.Sleep(10);
+        Thread.Sleep(10);
         Ele.Run();
-        Ele.Sleep(10);
+        Thread.Sleep(10);
         TTte.Run();
-        TTte.Sleep(10);
+        Thread.Sleep(10);
         Ooo.Run();
-        Ooo.Sleep(10);
+        Thread.Sleep(10);
         Enter.Run();
-        Enter.Sleep(10);
+        Thread.Sleep(10);
 
     }
 }
